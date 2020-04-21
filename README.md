@@ -1,4 +1,4 @@
-## Screenshoot Aplikasi RumiRumi
+## Aplikasi Jenis-Jenis Kamera 
 
 ### Detail
 1. Bahasa pemrograman: Java
