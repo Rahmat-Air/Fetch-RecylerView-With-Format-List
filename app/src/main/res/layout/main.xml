@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/kamera_dslr"
+        android:id="@+id/imageView23"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="3dp"
+        android:layout_width="71dp"
+        android:layout_marginEnd="13dp"
+        android:layout_height="71dp"/>
+
+    <LinearLayout
+        android:layout_toEndOf="@+id/imageView23"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/jenis"
+            android:textSize="18sp"
+            android:text="Jenis Kamera"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:textColor="#000000"
+            android:layout_marginTop="7dp"
+            android:text="Deskripsi"
+            android:ellipsize="end"
+            android:textSize="17sp"
+            android:maxLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

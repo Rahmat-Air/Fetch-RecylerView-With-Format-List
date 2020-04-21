@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+
+        android:src="@drawable/kamera_mirrorless"
+        android:id="@+id/foto_detail"
+        android:layout_width="140dp"
+        android:layout_height="230dp"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/foto_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/jenis"
+            android:textSize="18sp"
+            android:text="Jenis Kamera"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:textColor="#000000"
+            android:layout_marginTop="7dp"
+            android:text="Deskripsi"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>
