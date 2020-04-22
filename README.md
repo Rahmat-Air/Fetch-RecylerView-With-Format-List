@@ -1,7 +1,7 @@
 ## Aplikasi Jenis-Jenis Kamera 
 
 ### Detail
-1. Bahasa pemrograman: Java
+1. Bahasa pemrograman : Java
 2. Min SDK Version : 19 (Kitkat)
 3. Software : Android Studio
 
